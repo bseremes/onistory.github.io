@@ -10,16 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="451.55554mm"
-   height="282.22223mm"
-   viewBox="0 0 1600 1000"
+   width="192.05223mm"
+   height="192.05223mm"
+   viewBox="0 0 680.50007 680.50001"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="onistory-logo-full.svg"
-   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-full.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-medium-small.png"
+   inkscape:export-xdpi="41.142857"
+   inkscape:export-ydpi="41.142857">
   <defs
      id="defs4">
     <linearGradient
@@ -43,7 +43,7 @@
        x2="648.15796"
        y2="266.56299"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.4764151,0,0,6.4346153,-903.85445,-2554.9199)" />
+       gradientTransform="matrix(2.246933,0,0,3.0535245,-635.10059,-894.13603)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -53,8 +53,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-259.2857"
-     inkscape:cy="1020"
+     inkscape:cx="-311.42854"
+     inkscape:cy="937.14328"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,37 +83,37 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(408.57144,19.066362)">
+     transform="translate(185.71428,-103.29126)">
     <rect
        style="fill:url(#linearGradient4144);fill-opacity:1;fill-rule:evenodd;stroke-width:70;stroke-miterlimit:2.875;stroke-dasharray:none"
        id="rect4136"
-       width="750"
-       height="1434"
-       x="-408.57144"
-       y="-453.06638" />
+       width="680.50012"
+       height="680.50012"
+       x="-185.71428"
+       y="103.2912" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:405px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-191.72394"
-       y="286.07654"
+       x="-3.6167178"
+       y="520.7652"
        id="text5234"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5236"
-         x="-191.72394"
-         y="286.07654"
+         x="-3.6167178"
+         y="520.7652"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:405px;font-family:Fonarto;-inkscape-font-specification:Fonarto;fill:#fafafa;fill-opacity:1">O</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-204.27522"
-       y="434.93365"
+       x="-16.168007"
+       y="637.62231"
        id="text5238"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5240"
-         x="-204.27522"
-         y="434.93365"
+         x="-16.168007"
+         y="637.62231"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:Fonarto;-inkscape-font-specification:Fonarto;fill:#fafafa;fill-opacity:1">onistory</tspan></text>
   </g>
 </svg>
