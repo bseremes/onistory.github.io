@@ -10,14 +10,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="423.33334mm"
-   height="141.11111mm"
-   viewBox="0 0 1500.0001 500"
+   width="240.17111mm"
+   height="88.900002mm"
+   viewBox="0 0 851.00004 315"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="onistory-background.svg"
-   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-medium.png"
+   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-facebook-cover.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -43,7 +43,7 @@
        x2="648.15796"
        y2="266.56299"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4.9528305,0,0,2.24359,-1399.1375,-251.93037)" />
+       gradientTransform="matrix(2.8099058,0,0,1.4134617,-970.55257,204.22933)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-88.571403"
+     inkscape:cx="-88.571401"
      inkscape:cy="1134.2856"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -83,13 +83,13 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(408.57144,-480.93362)">
+     transform="translate(408.57144,-665.93361)">
     <rect
        style="fill:url(#linearGradient4144);fill-opacity:1;fill-rule:evenodd;stroke-width:70;stroke-miterlimit:2.875;stroke-dasharray:none"
        id="rect4136"
-       width="1500.0001"
-       height="500.00006"
+       width="851.00006"
+       height="315.00003"
        x="-408.57144"
-       y="480.93356" />
+       y="665.93359" />
   </g>
 </svg>
