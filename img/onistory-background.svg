@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="395.11111mm"
-   height="316.0889mm"
-   viewBox="0 0 1400.0001 1120"
+   width="423.33334mm"
+   height="141.11111mm"
+   viewBox="0 0 1500.0001 500"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -43,7 +43,7 @@
        x2="648.15796"
        y2="266.56299"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4.6226415,0,0,5.025641,-1333.0997,-1780.6814)" />
+       gradientTransform="matrix(4.9528305,0,0,2.24359,-1399.1375,-251.93037)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -53,8 +53,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-259.2857"
-     inkscape:cy="1134.2857"
+     inkscape:cx="-88.571403"
+     inkscape:cy="1134.2856"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,13 +83,13 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(408.57144,139.06638)">
+     transform="translate(408.57144,-480.93362)">
     <rect
        style="fill:url(#linearGradient4144);fill-opacity:1;fill-rule:evenodd;stroke-width:70;stroke-miterlimit:2.875;stroke-dasharray:none"
        id="rect4136"
-       width="1400"
-       height="1120"
+       width="1500.0001"
+       height="500.00006"
        x="-408.57144"
-       y="-139.06638" />
+       y="480.93356" />
   </g>
 </svg>
