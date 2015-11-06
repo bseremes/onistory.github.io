@@ -133,7 +133,7 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
   background-color: transparent;
 }
 
-.bg-white { background-color: #fff; }
+.bg-white { background-color: #aaa; }
 
 .section-intro,
 .section-features,
@@ -561,7 +561,7 @@ $custom-min-height: 37.5em; // 600
 .jumbotron {
   padding-top: 7rem;
   margin-bottom: 0;
-  background: #663fb5 url(../img/bg-header.jpg) no-repeat center bottom;
+  background: #663fb5 url(../img/landing/landing-background.png) no-repeat center bottom;
   background-size: cover;
   border-radius: 0;
 
@@ -934,7 +934,7 @@ figure { position: relative; }
 // --------------------------------------------------
 
 .section-testimonials {
-  background: #663fb5 url(../img/bg-testimonials.jpg) no-repeat center bottom;
+  background: #663fb5 url(../img/landing/bg-testimonials.jpg) no-repeat center bottom;
   background-size: cover;
   .blockquote {
     margin: 0 auto 2rem;
