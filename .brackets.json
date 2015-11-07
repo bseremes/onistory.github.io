@@ -1,13 +1,15 @@
- {
+{
     "path": {
-      "scss/onistory.scss": {
-        "sass.enabled": true,
-        "sass.options": {
-          "outputDir": "../css/",
-          "imagePath": null,
-          "sourceComments": "map",
-          "outputStyle": "compressed"
+        "scss/onistory.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "compressed"
+            },
+            "themes.theme": "dark-theme",
+            "fonts.fontSize": "14px"
         }
-      }
     }
-  }
+}
