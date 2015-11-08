@@ -24,7 +24,8 @@
 //  Footer
 //  Profile card
 //  Social buttons
-//  Donut chart
+//  Modal Contact
+//  Modal News
 
 
 //
@@ -1478,7 +1479,26 @@ $linkedin: #0077b5;
   }
 }
 
+
+//
+// =Modal Contact
+// --------------------------------------------------
+
 #modalContact {
+  .modal-dialog {
+    width: initial;
+  }
+  h3 {
+    color: #086788;
+  }
+}
+
+
+//
+// =Modal Newsletter
+// --------------------------------------------------
+
+#modalNewsletter {
   .modal-dialog {
     width: initial;
   }
