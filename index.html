@@ -288,18 +288,15 @@
                 <p>Pour toute demande d'informations supplémentaires, n'hésitez pas à nous contacter en remplissant le formulaire ci-contre :</p>
                 <div class="form-group has-icon-left form-control-name">
                     <label class="sr-only" for="inputName">Nom</label>
-                    <input name="nom" type="text" class="form-control form-control-lg" placeholder="Nom">
-                    <input type="hidden" name="_valid[nom]" value="required">
+                    <input name="nom" type="text" class="form-control form-control-lg" placeholder="Nom" required>
                   </div>
                   <div class="form-group has-icon-left form-control-email">
                     <label class="sr-only" for="inputEmail">Email</label>
-                    <input name="email" type="email" class="form-control form-control-lg" placeholder="Email" autocomplete="off">
-                    <input type="hidden" name="_valid[email]" value="required">
+                    <input name="email" type="email" class="form-control form-control-lg" placeholder="Email" autocomplete="off" required>
                   </div>
                   <div>
                     <label class="sr-only" for="exampleTextarea">Message</label>
-                    <textarea name="message" class="form-control form-control-lg" rows="3" placeholder="Message"></textarea>
-                    <input type="hidden" name="_valid[message]" value="required">
+                    <textarea name="message" class="form-control form-control-lg" rows="3" placeholder="Message" required></textarea>
                   </div>
               </div>
               <div class="modal-footer">
