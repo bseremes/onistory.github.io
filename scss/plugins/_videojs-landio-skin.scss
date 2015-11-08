@@ -140,10 +140,10 @@
   }
 }
 
-.vjs-default-skin .vjs-mute-control:before { content: "\e617"; }
-.vjs-default-skin .vjs-mute-control.vjs-vol-0:before { content: "\e615"; }
-.vjs-default-skin .vjs-mute-control.vjs-vol-1:before { content: "\e616"; }
-.vjs-default-skin .vjs-mute-control.vjs-vol-2:before { content: "\e618"; }
+.vjs-default-skin .vjs-mute-control:before { content: "\f028"; }
+.vjs-default-skin .vjs-mute-control.vjs-vol-0:before { content: "\f026"; }
+.vjs-default-skin .vjs-mute-control.vjs-vol-1:before { content: "\f027"; }
+.vjs-default-skin .vjs-mute-control.vjs-vol-2:before { content: "\f028"; }
 
 .vjs-default-skin .vjs-volume-control {
   position: absolute;
@@ -260,7 +260,7 @@
   z-index: 2;
 
   &:before {
-    content: "\e611"; // PLAY icon
+    content: "\f04b"; // PLAY icon
     font-family: 'icomoon';
     font-size: 3.125rem;
   }
@@ -273,7 +273,7 @@
 .vjs-playing .vjs-big-play-button {
   pointer-events: none;
   &:before {
-    content: "\e614"; // PAUSE icon
+    content: "\f04c"; // PAUSE icon
   }
 }
 
@@ -309,7 +309,7 @@
 }
 
 .vjs-default-skin .vjs-loading-spinner:before {
-  content: "\e619";
+  content: "\f110";
   font-family: 'icomoon';
   position: absolute;
   top: 0;
