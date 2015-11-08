@@ -53,7 +53,7 @@
           </li>
           <li class="navbar-divider hidden-sm-down"></li>
           <li class="nav-item nav-item-toggable">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContact">Contact</a>
           </li>
           </ul>
         </div>
@@ -265,13 +265,51 @@
             <ul class="list-inline m-b-0">
               <li class="active"><a href="#">A propos</a></li>
               <li><a href="https://medium.com/@onistory" target="_blank">Blog</a></li>
-              <li><a href="#">Contactez-nous</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#modalContact">Contactez-nous</a></li>
               <li><a class="scroll-top" href="#totop">Retour <span class="icon-chevron-up"></span></a></li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
+
+    <div class="modal fade container" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalContact" aria-hidden="true">
+      <div class="modal-dialog row" role="document"> 
+        <div class="modal-content col-md-8 col-md-offset-2">
+          <form action="http://mailthis.to/onistory" method="post">
+              <div class="modal-header">
+                <h3 class="modal-title" id="modalContact">Contactez-nous</h3>
+              </div>
+              <div class="modal-body">
+                <p>Pour toute demande d'informations supplémentaires, n'hésitez pas à nous contacter en remplissant le formulaire ci-contre :</p>
+                <div class="form-group has-icon-left form-control-name">
+                    <label class="sr-only" for="inputName">Nom</label>
+                    <input name="nom" type="text" class="form-control form-control-lg" placeholder="Nom">
+                    <input type="hidden" name="_valid[nom]" value="required">
+                  </div>
+                  <div class="form-group has-icon-left form-control-email">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                    <input name="email" type="email" class="form-control form-control-lg" placeholder="Email" autocomplete="off">
+                    <input type="hidden" name="_valid[email]" value="required">
+                  </div>
+                  <div>
+                    <label class="sr-only" for="exampleTextarea">Message</label>
+                    <textarea name="message" class="form-control form-control-lg" rows="3" placeholder="Message"></textarea>
+                    <input type="hidden" name="_valid[message]" value="required">
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </div>
+              <input type="hidden" name="_subject" value="ONI_LDP">
+              <input type="text" name="_honey" value="" style="display:none">
+              <input type="hidden" name="_confirmation" value="<b>Merci beaucoup !</b><br/> Nous avons recu votre message et revenons vers vous des que possible.">
+          </form>
+        </div>
+      </div>
+    </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/onistory.min.js"></script>
   </body>
