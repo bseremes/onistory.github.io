@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="onistory-logo-full.svg"
-   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-facebook.png"
-   inkscape:export-xdpi="23.806021"
-   inkscape:export-ydpi="23.806021">
+   inkscape:export-filename="C:\Users\bseremes\Work\onistory.github.io\img\onistory-logo-favicon.jpg"
+   inkscape:export-xdpi="34.386475"
+   inkscape:export-ydpi="34.386475">
   <defs
      id="defs4">
     <linearGradient
@@ -75,7 +75,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
