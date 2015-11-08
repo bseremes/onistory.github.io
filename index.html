@@ -214,14 +214,14 @@
     <section class="section-signup bg-faded" id="newsletter">
       <div class="container">
         <h3 class="text-center m-b-lg">Newsletter</h3>
-        <form>
+        <form  action="http://onistory.us12.list-manage2.com/subscribe/post" method="POST">
           <div class="row">
             <div class="col-md-2 col-x3-3">
             </div>
             <div class="col-md-7 col-x3-3">
               <div class="form-group has-icon-left form-control-email">
                 <label class="sr-only" for="inputEmail">Adresse e-mail</label>
-                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Adresse e-mail" autocomplete="off">
+                <input name="MERGE0" type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Adresse e-mail"  required >
               </div>
             </div>
           </div>
@@ -231,17 +231,21 @@
             <div class="col-md-4 col-x3-3">
               <div class="form-group">
                 <label class="c-input c-checkbox">
-                  <input type="checkbox" checked>
+                  <input type="checkbox" unchecked  required>
                   <span class="c-indicator"></span>Je m'inscris à la newsletter d'Onistory et accèpte la <a href="#">politique de confidentialité</a>
                 </label>
               </div>
             </div>
             <div class="col-md-4 col-xl-3">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">S'inscrire</button>
+                <button type="submit" name="submit" value="S'abonner à la newsletter" class="btn btn-primary btn-block">S'inscrire</button>
               </div>
             </div>
           </div>
+          <input type="hidden" name="u" value="464fedfdcb71a5726f1fc2e91">
+          <input type="hidden" name="id" value="d7a1dcd712">
+          <!-- real people should not fill this in and expect good things -->
+          <input type="text" name="b_464fedfdcb71a5726f1fc2e91_d7a1dcd712" style="display:none;" tabindex="-1" value="">
         </form>
       </div>
     </section>
