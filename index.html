@@ -232,7 +232,7 @@
               <div class="form-group">
                 <label class="c-input c-checkbox">
                   <input type="checkbox" unchecked  required>
-                  <span class="c-indicator"></span>Je m'inscris à la newsletter d'Onistory et accèpte la <a href="#">politique de confidentialité</a>
+                  <span class="c-indicator"></span>Je m'inscris à la newsletter d'Onistory et accèpte la <a href="#" data-toggle="modal" data-target="#modalConfidentialite">politique de confidentialité</a>
                 </label>
               </div>
             </div>
@@ -307,6 +307,22 @@
               <input type="text" name="_honey" value="" style="display:none">
               <input type="hidden" name="_confirmation" value="<b>Merci beaucoup !</b><br/> Nous avons recu votre message et revenons vers vous des que possible.">
           </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade container" id="modalConfidentialite" tabindex="-1" role="dialog" aria-labelledby="modalConfidentialite" aria-hidden="true">
+      <div class="modal-dialog row" role="document"> 
+        <div class="modal-content col-md-8 col-md-offset-2">
+              <div class="modal-header">
+                <h4 class="modal-title" id="modalConfidentialite">Politique de confidentialité Bêta</h4>
+              </div>
+              <div class="modal-body">
+                  <p>En utilisant <strong>Onistory</strong>, vous reconnaissez être informé que l’application est en <strong>version bêta</strong> et ne saurait être utilisée à d’autres fins que celle de tests visant à finaliser son développement. Les responsabilités de Yannick Hilaire ou Boris Sérèmes ne sauraient donc être valablement recherchée pour un motif lié à l’utilisation de l’application ou de sa newsletter. L’utilisateur déclare donc <strong>renoncer expressément à toute action en responsabilité contre Yannick Hilaire ou Boris Sérèmes</strong> se rapportant à l’usage de ladite application ou de sa newsletter.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">J'ai compris</button>
+              </div>
         </div>
       </div>
     </div>
