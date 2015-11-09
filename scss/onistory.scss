@@ -32,8 +32,9 @@
 // =Fonts & Bootstrap
 // --------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Ubuntu:400,700|');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Ubuntu:400,700');
 @import 'icomoon';
+@import 'fonarto';
 
 // Core variables and mixins
 // @import "bootstrap/variables";
@@ -206,6 +207,14 @@ $font-family-sans-serif-custom: 'Ubuntu', sans-serif !default;
   font-weight: 600;
   line-height: 1.2;
   font-family: $font-family-sans-serif-custom;
+
+  h1 {
+    font-family: "fonarto";
+    font-size: 3rem;
+    &:hover {
+      color: rgba(8, 103, 136, .5);
+    }
+  }
 
   @include media-breakpoint-down(sm) {
     padding-top: 1.5625rem;
@@ -581,11 +590,14 @@ $custom-min-height: 37.5em; // 600
   a.jumbolink:focus {
     opacity: 1;
   }
+  .display-3 {
+      font-family: "fonarto";
+  }
 }
 
 @include media-breakpoint-down(sm) {
   .display-3 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
